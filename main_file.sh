@@ -5,7 +5,24 @@ menu_display(){
         add(){
                 ##add 2,3,4... number 
                 ##add any no of string string ie (user enter two string hi and hello then ouput will "hi hello"
+                read -p "Enter first input: "
+		input1
+
+		read -p "Enter second input: "
+		input2
+
+		if [[ $input =~ ^[0-9]+$ ]] && [[ $input2 =~ ^[0-9]+$ ]]; then
+			sum=$((input1 + input2))
+			echo "sum of integers: $sum"
+
+		else
+			echo "concatenated sreing : $input1 $input2"
+
+		fi
+
+
                 
+
         }
 
         ## Arjun will work on subtract 
