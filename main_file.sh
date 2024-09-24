@@ -16,7 +16,7 @@ menu_display(){
 			echo "sum of integers: $sum"
 
 		else
-			echo "concatenated sreing : $input1 $input2"
+			echo "concatenated string : $input1 $input2"
 
 		fi
 
